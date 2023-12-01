@@ -1,0 +1,284 @@
+.e_fb_action_btn {
+    display: block;
+    position: fixed;
+    bottom: 10 px;
+    padding: 5 px 10 px;
+    border: 1 px solid #333;
+    background-color: # 375 ddf;
+    color: white;
+    font - size: 14 px;
+    left: 12 px;
+    box - shadow: 3 px 3 px 4 px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+.e_fb_action_btn: hover {
+        border: 1 px solid #fff;
+        box - shadow: 3 px 3 px 4 px rgba(0, 0, 0, 0.4);
+
+    }
+    .e_fb_groups_overlay {
+        position: fixed;
+        width: 100 % ;
+        height: 100 % ;
+        background - color: rgba(0, 0, 0, 0.5);
+        z - index: 9999999;
+        top: 0 px;
+        left: 0 px;
+    }
+
+    .e_fb_popup, .e_fb_popup_1 {
+        background - color: white;
+        border: 1 px solid #222;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 9999999999;
+    width: 50%;
+    height: auto;
+    top: 10%;
+    left: 25%;
+    padding: 4px 8px;
+}
+
+.e_fb_popup, .e_fb_groups_overlay, .e_fb_popup_1{
+    display: none;
+}
+
+.e_fb_popup_heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid # ccc;
+    }
+    .e_fb_label {
+        font - size: 14 px;
+        color: #444;
+    display: block;
+    padding-bottom: 1px;
+}
+
+.e_fb_groups_finetip {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+textarea# e_fb_groups_url {
+            width: 99 % !important;
+            height: 200 px!important;
+            margin - bottom: 12 px!important;
+        }
+
+        textarea #e_fb_groups_message {
+            width: 99 % !important;
+            height: 50 px!important;
+        }
+
+        .e_fb_popup_action_holder {
+            border - top: 1 px solid #ccc;
+            margin - top: 18 px;
+            height: 55 px;
+        }
+
+        .e_fb_left_side_btn {
+            float: left;
+            margin - top: 18 px;
+            height: 55 px;
+            margin - left: -24 px;
+        }
+
+        .e_fb_left_side_btn div {
+            background - color: #59B2E0;
+    border: none;
+    border-radius: 4px;
+}
+
+.e_fb_groups_action_btn {
+    float: right;
+    margin-left: 25px;
+    padding: 8px 12px;
+    border: 1px solid # ccc;
+            margin - top: 12 px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .e_fb_groups_action_btn.e_fb_submit_group, .e_fb_groups_action_btn.e_fb_add_group {
+                background - color: #59B2E0;
+    border: none;
+    border-radius: 4px;
+}
+
+.e_fb_groups_action_btn.e_fb_cancel, .e_fb_groups_action_btn.e_fb_cancel_1 {
+    background-color: # 59 B2E0;
+                border: none;
+                border - radius: 4 px;
+            }
+            .e_fb_groups_action_btn: hover {
+                box - shadow: 3 px 3 px 4 px rgba(0, 0, 0, 0.4);
+            }
+
+            .e_fb_popup_close, .e_fb_popup_close_1 {
+                position: absolute;
+                top: 2 px;
+                right: 6 px;
+                background - color: #444;
+    padding: 5px 9px;
+    color: white;
+    cursor: pointer;
+}
+
+.e_fb_popup_close:hover, .e_fb_popup_close_1:hover{
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    
+}
+/*._4kny {
+    float: left;
+    display: none;
+}
+*/
+/*._4h98 {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    line-height: normal;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 0;
+    resize: none;
+    width: 100%;
+}*/
+.e_fb_post_popup, .e_fb_post_action_popup{
+    background-color: white;
+    border: 1px solid # 222;
+                box - shadow: 3 px 3 px 4 px rgba(0, 0, 0, 0.4);
+                position: fixed;
+                z - index: 9999999999;
+                width: auto;
+                height: auto;
+                top: 10 % ;
+                left: 40 % ;
+                padding: 4 px 8 px;
+                left: 0;
+                right: 0;
+            }
+            .e_fb_post_popup h3, .e_fb_post_action_popup h3 {
+                padding: 30 px;
+                font - size: 18 px;
+            }
+            .e_fb_post_popup, .e_fb_post_action_popup {
+                display: none;
+            }
+
+
+            .progress_htm {
+                background - color: white;
+                border: 1 px solid #222;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 9999999999;
+    width: 400px;
+    height: 200px;
+    top: 30%;
+    left: 40%;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:25px;
+    opacity: .9;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+}
+
+
+
+.progress_parent
+{
+    display: none;
+}
+
+
+
+
+.e_fb_popup_close {
+    top: 0px;
+    right: 0px;
+    height: 19px;
+    background-color: # 59 B2E0;
+                line - height: normal;
+            }
+
+            .e_fb_popup {
+                border - color: #59B2E0;
+    padding: 0px 15px;
+}
+
+.e_fb_popup_heading {
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border: none;
+    position: relative;
+}
+
+.e_fb_groups_finetip {
+    margin-bottom: 10px;
+}
+.e_fb_popup_heading:after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    border: 0.5px solid # e0e0e0;
+                width: 672 px;
+                left: -15 px;
+            }
+
+            .e_fb_popup_heading {
+                font - weight: bold;
+                padding: 12 px 2 px;
+            }
+
+        @media only screen and(max - width: 800 px) {
+            .e_fb_popup, .e_fb_popup_1 {
+                width: 80 % ;
+                left: 0;
+                right: 0;
+                margin: auto;
+                overflow: scroll;
+                height: 90 % ;
+                top: 30 px;
+            }
+
+            .e_fb_popup select, .e_fb_popup textarea, .e_fb_popup input {
+                border: 1 px solid grey!important;
+            }
+
+            .e_fb_select_add_new_category {
+                display: block;
+                margin - top: 10 px;
+                margin - bottom: 10 px;
+            }
+
+            .e_fb_slect_existing_category {
+                display: block;
+                margin - top: 10 px;
+                margin - bottom: 10 px;
+            }
+
+            .e_fb_popup_action_holder.e_fb_submit_group {
+                    float: left;
+                    margin - left: 0 px;
+                }
+
+                .e_fb_popup_action_holder.e_fb_cancel {
+                    float: left;
+                    // background-color: #17a2b8!important;
+                }
+
+        }

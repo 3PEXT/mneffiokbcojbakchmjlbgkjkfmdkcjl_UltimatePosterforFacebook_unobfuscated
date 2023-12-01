@@ -1,0 +1,39 @@
+{
+    "background": {
+        "scripts": ["scripts/j.js", "scripts/background.js"]
+    },
+    "browser_action": {
+        "default_icon": "32.png",
+        "default_popup": "popup/popup.html",
+        "default_title": "Ultimate Poster for Facebook™"
+    },
+    "content_scripts": [{
+        "all_frames": false,
+        "css": ["css/content.css"],
+        "js": ["scripts/j.js", "scripts/content.js"],
+        "matches": ["*://*.facebook.com/*"],
+        "run_at": "document_end"
+    }, {
+        "all_frames": false,
+        "css": ["css/content.css"],
+        "js": ["scripts/j.js", "scripts/mobile-content.js"],
+        "matches": ["*://m.facebook.com/*"],
+        "run_at": "document_end"
+    }],
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "description": "Post to up to 20 Facebook groups in 1 click!",
+    "icons": {
+        "128": "128.png",
+        "16": "16.png",
+        "24": "24.png",
+        "32": "32.png",
+        "48": "48.png"
+    },
+
+    "manifest_version": 2,
+    "name": "Ultimate Poster for Facebook™",
+    "permissions": ["tabs", "storage"],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "2.7.9",
+    "web_accessible_resources": ["images/*", "scripts/*"]
+}
